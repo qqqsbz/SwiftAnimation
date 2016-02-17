@@ -19,6 +19,7 @@
 		DC05BD351C71A7BE007EC84B /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD341C71A7BE007EC84B /* TriangleLayer.swift */; };
 		DC05BD3A1C72D7E3007EC84B /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD391C72D7E3007EC84B /* RectangleLayer.swift */; };
 		DC05BD3C1C7315F2007EC84B /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05BD3B1C7315F2007EC84B /* ArcLayer.swift */; };
+		DC771F461C745875002F95DA /* screenshotsswift.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC771F451C745875002F95DA /* screenshotsswift.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DC05BD341C71A7BE007EC84B /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
 		DC05BD391C72D7E3007EC84B /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
 		DC05BD3B1C7315F2007EC84B /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		DC771F451C745875002F95DA /* screenshotsswift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshotsswift.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		DC05BD001C71622D007EC84B /* Swift_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				DC771F451C745875002F95DA /* screenshotsswift.gif */,
 				DC05BD331C71695A007EC84B /* Layers */,
 				DC05BD011C71622D007EC84B /* AppDelegate.swift */,
 				DC05BD031C71622D007EC84B /* ViewController.swift */,
@@ -254,6 +257,7 @@
 			files = (
 				DC05BD0C1C71622D007EC84B /* LaunchScreen.storyboard in Resources */,
 				DC05BD091C71622D007EC84B /* Assets.xcassets in Resources */,
+				DC771F461C745875002F95DA /* screenshotsswift.gif in Resources */,
 				DC05BD071C71622D007EC84B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				DC05BD281C71622D007EC84B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC05BD291C71622D007EC84B /* Build configuration list for PBXNativeTarget "Swift_AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				DC05BD2B1C71622D007EC84B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC05BD2C1C71622D007EC84B /* Build configuration list for PBXNativeTarget "Swift_AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				DC05BD2E1C71622D007EC84B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
